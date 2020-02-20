@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane layoutX="4.0" layoutY="4.0" prefHeight="452.0" prefWidth="465.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.ViewController">
+   <children>
+      <Label layoutX="166.0" layoutY="148.0" text="click in class">
+         <font>
+            <Font name="Bell MT Bold" size="25.0" />
+         </font>
+      </Label>
+      <Button fx:id="testButom" layoutX="207.0" layoutY="214.0" mnemonicParsing="false" onAction="#onTestButonAction" text="class" />
+      <Button fx:id="testButom1" layoutX="14.0" layoutY="413.0" mnemonicParsing="false" onAction="#onTestAlertAction" text="DONT CLICK HERE" textFill="RED" />
+   </children>
+</AnchorPane>
